@@ -4,7 +4,7 @@
  */
 /*
 Plugin Name: Research Library
-Plugin URI: https://github.com/johnmalcolm/wp-researchlibrary
+Plugin URI: https://github.com/johnmalcolm/reserach_library-plugin
 Description: Research Library allow you to create and manage curated lists of journal articles from over 36,000 journals. You can use this plugin to manage and feature these databases on your website along side rich data visualizations for your research project, students or others in your field.  
 Version: 1.0.0
 Author: Scientometrics
@@ -33,6 +33,7 @@ function wporg_options_page_html() {
 }
 
 add_action( 'admin_menu', 'wporg_options_page' );
+
 function wporg_options_page() {
     add_menu_page(
         'WPOrg',
